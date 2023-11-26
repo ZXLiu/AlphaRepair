@@ -1,0 +1,134 @@
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /tmp/Chart-9 && /home/lzx/defects4j/major/bin/ant -f /home/lzx/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/lzx/defects4j -Dd4j.dir.projects=/home/lzx/defects4j/framework/projects -Dbasedir=/tmp/Chart-9 -Dbuild.compiler=javac1.7  compile.tests 2>&1
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /home/lzx/defects4j/framework/projects/defects4j.build.xml
+
+initialise:
+
+compile:
+    [javac] /home/lzx/defects4j/framework/projects/Chart/Chart.build.xml:57: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Warning: org/jfree/data/time/TimeSeries.java modified in the future.
+    [javac] Compiling 1 source file to /tmp/Chart-9/build
+    [javac] 警告: [options] 未与 -source 1.4 一起设置引导类路径
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/InvocationTargetException.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Method.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Date.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/TimeZone.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Number.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CloneNotSupportedException.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()': 找不到jdk.Profile+Annotation的类文件
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/InvocationTargetException.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Method.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Date.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/TimeZone.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Number.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CloneNotSupportedException.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractList.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractList.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Long.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Long.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalArgumentException.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalArgumentException.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuffer.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuffer.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AbstractStringBuilder.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AbstractStringBuilder.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Double.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Double.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Executable.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Executable.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/AccessibleObject.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/AccessibleObject.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/NoSuchMethodException.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/NoSuchMethodException.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ReflectiveOperationException.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ReflectiveOperationException.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalAccessException.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalAccessException.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] 警告: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Error.class): 主版本 52 比 51 新, 此编译器支持最新的主版本。
+    [javac]   建议升级此编译器。
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Error.class): 警告: 无法找到类型 'Profile+Annotation' 的注释方法 'value()'
+    [javac] /tmp/Chart-9/source/org/jfree/data/time/TimeSeries.java:944: 错误: 不兼容的类型
+    [javac] if (endIndex| 0) {
+    [javac]             ^
+    [javac]   需要: boolean
+    [javac]   找到:    int
+    [javac] 1 个错误
+    [javac] 73 个警告
+
+BUILD FAILED
+/home/lzx/defects4j/framework/projects/Chart/Chart.build.xml:57: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+Cannot compile test suite! at /home/lzx/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /home/lzx/defects4j/framework/bin/defects4j line 195.
