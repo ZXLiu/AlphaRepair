@@ -1,4 +1,1 @@
-# AlphaRepair [Unofficial]
-
-This repository implements research paper "Less Training, More Repairing Please: Revisiting Automated Program Repair via Zero-shot Learning", which is published at ESEC/FSE 2022. The source code are modified from official [Zenodo repo](https://zenodo.org/record/6819444).
-
+The reproduction of the Alpharepair tool in the paper "Less Training, More Repairing Please: Revisiting Automated Program Repair via Zero-Shot Learning".The tool uses the mask language model, CodeBERT, for cloze APR. Test the performance of the tool in the defects4j dataset.
